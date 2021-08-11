@@ -23,6 +23,8 @@ google検索を楽にするためのchromの拡張機能
 - 検索バーでu→enterでfocus外れる
 
   ![スクリーンショット 2021-08-11 14.47.25](/Users/naru-naru/Library/Application Support/typora-user-images/スクリーンショット 2021-08-11 14.47.25.png)
+  ![スクリーンショット 2021-08-11 14 53 45](https://user-images.githubusercontent.com/61283753/128976719-7826bc04-13c8-46ca-ada7-fc27534ee657.png)
+
 
 ## ocrotree
 
