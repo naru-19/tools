@@ -1,0 +1,206 @@
+{
+  "title": "my rule",
+  "rules": [
+    {
+      "description": "cnum",
+      "manipulators": [
+         {
+            "type": "basic",
+            "from": {
+                "key_code": "q",
+                "modifiers": {
+                    "mandatory": ["control"],
+                    "optional": ["caps_lock", "option"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "1"
+                }
+            ]
+         }
+      ]
+    },
+    {
+      "description": "cnum",
+      "manipulators": [
+         {
+            "type": "basic",
+            "from": {
+                "key_code": "w",
+                "modifiers": {
+                    "mandatory": ["control"],
+                    "optional": ["caps_lock", "option"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "2"
+                }
+            ]
+         }
+      ]
+    },
+    {
+      "description": "cnum",
+      "manipulators": [
+         {
+            "type": "basic",
+            "from": {
+                "key_code": "e",
+                "modifiers": {
+                    "mandatory": ["control"],
+                    "optional": ["caps_lock", "option"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "3"
+                }
+            ]
+         }
+      ]
+    },
+    {
+      "description": "cnum",
+      "manipulators": [
+         {
+            "type": "basic",
+            "from": {
+                "key_code": "r",
+                "modifiers": {
+                    "mandatory": ["control"],
+                    "optional": ["caps_lock", "option"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "4"
+                }
+            ]
+         }
+      ]
+    }
+    ,{
+      "description": "cnum",
+      "manipulators": [
+         {
+            "type": "basic",
+            "from": {
+                "key_code": "t",
+                "modifiers": {
+                    "mandatory": ["control"],
+                    "optional": ["caps_lock", "option"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "5"
+                }
+            ]
+         }
+      ]
+    }
+    ,{
+      "description": "cnum",
+      "manipulators": [
+         {
+            "type": "basic",
+            "from": {
+                "key_code": "y",
+                "modifiers": {
+                    "mandatory": ["control"],
+                    "optional": ["caps_lock", "option"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "6"
+                }
+            ]
+         }
+      ]
+    },
+    {
+      "description": "cnum",
+      "manipulators": [
+         {
+            "type": "basic",
+            "from": {
+                "key_code": "u",
+                "modifiers": {
+                    "mandatory": ["control"],
+                    "optional": ["caps_lock", "option"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "7"
+                }
+            ]
+         }
+      ]
+    }
+    ,{
+      "description": "cnum",
+      "manipulators": [
+         {
+            "type": "basic",
+            "from": {
+                "key_code": "i",
+                "modifiers": {
+                    "mandatory": ["control"],
+                    "optional": ["caps_lock", "option"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "8"
+                }
+            ]
+         }
+      ]
+    },
+    {
+      "description": "cnum",
+      "manipulators": [
+         {
+            "type": "basic",
+            "from": {
+                "key_code": "o",
+                "modifiers": {
+                    "mandatory": ["control"],
+                    "optional": ["caps_lock", "option"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "9"
+                }
+            ]
+         }
+      ]
+    },
+    {
+      "description": "cnum",
+      "manipulators": [
+         {
+            "type": "basic",
+            "from": {
+                "key_code": "p",
+                "modifiers": {
+                    "mandatory": ["control"],
+                    "optional": ["caps_lock", "option"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "0"
+                }
+            ]
+         }
+      ]
+    }
+  ]
+}
+
