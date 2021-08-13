@@ -1,0 +1,108 @@
+{
+  "title": "my",
+  "rules": [
+    {
+      "description": "Ctrl + h = (",
+      "manipulators": [
+         {
+            "type": "basic",
+            "from": {
+                "key_code": "h",
+                "modifiers": {
+                    "mandatory": ["control"],
+                    "optional": ["caps_lock", "option"]
+                }
+            },
+            "to": [
+                {
+                  "modifiers": ["left_shift"],
+                    "key_code": "9"
+                }
+            ]
+         }
+      ]
+    },
+    {
+      "description": "Ctrl + l= )",
+      "manipulators": [
+         {
+            "type": "basic",
+            "from": {
+                "key_code": "l",
+                "modifiers": {
+                    "mandatory": ["control"],
+                    "optional": ["caps_lock", "option"]
+                }
+            },
+            "to": [
+                {
+                  "modifiers": ["left_shift"],
+                    "key_code": "0"
+                }
+            ]
+         }
+      ]
+    },
+    {
+      "description": "Ctrl + ; = [",
+      "manipulators": [
+         {
+            "type": "basic",
+            "from": {
+                "key_code": "semicolon",
+                "modifiers": {
+                    "mandatory": ["control"],
+                    "optional": ["caps_lock", "option"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "open_bracket"
+                }
+            ]
+         }
+      ]
+    },
+    {
+      "description": "Ctrl + ' = ]",
+      "manipulators": [
+         {
+            "type": "basic",
+            "from": {
+                "key_code": "quote",
+                "modifiers": {
+                    "mandatory": ["control"],
+                    "optional": ["caps_lock", "option"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "close_bracket"
+                }
+            ]
+         }
+      ]
+    },
+    {
+      "description": "Ctrl + s = _",
+      "manipulators": [
+         {
+            "type": "basic",
+            "from": {
+                "key_code": "s",
+                "modifiers": {
+                    "mandatory": ["control"],
+                    "optional": ["caps_lock", "option"]
+                }
+            },
+            "to": [
+                {
+                    "modifiers": ["left_shift"],
+                    "key_code": "hyphen"
+                }
+            ]
+         }
+      ]
+    }
+  ]
+}
