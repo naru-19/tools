@@ -103,6 +103,27 @@
             ]
          }
       ]
+    },
+    {
+      "description": "Ctrl + k = ctrl + k",
+      "manipulators": [
+         {
+            "type": "basic",
+            "from": {
+                "key_code": "k",
+                "modifiers": {
+                    "mandatory": ["control"],
+                    "optional": ["caps_lock", "option"]
+                }
+            },
+            "to": [
+                {
+                    "modifiers": ["control"],
+                    "key_code":"k"
+                }
+            ]
+         }
+      ]
     }
   ]
 }

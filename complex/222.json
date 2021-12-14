@@ -2,20 +2,21 @@
   "title": "my rule",
   "rules": [
     {
-      "description": "cnum",
+      "description": "ctrl i :=",
       "manipulators": [
          {
             "type": "basic",
             "from": {
-                "key_code": "q",
+                "key_code": "i",
                 "modifiers": {
                     "mandatory": ["control"],
                     "optional": ["caps_lock", "option"]
                 }
             },
             "to": [
-                {
-                    "key_code": "1"
+                { 
+
+                    "key_code": "equal_sign"
                 }
             ]
          }

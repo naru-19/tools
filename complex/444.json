@@ -1,0 +1,45 @@
+{
+  "title": "my rule",
+  "rules": [
+    {
+      "description": "Ctrl + u = -",
+      "manipulators": [
+         {
+            "type": "basic",
+            "from": {
+                "key_code": "u",
+                "modifiers": {
+                    "mandatory": ["control"],
+                    "optional": ["caps_lock", "option"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "hyphen"
+                }
+            ]
+         }
+      ]
+    },
+    {
+      "description": "Ctrl + y = +",
+      "manipulators": [
+         {
+            "type": "basic",
+            "from": {
+                "key_code": "y",
+                "modifiers": {
+                    "mandatory": ["control"],
+                    "optional": ["caps_lock", "option"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "keypad_plus"
+                }
+            ]
+         }
+      ]
+    }
+  ]
+}
