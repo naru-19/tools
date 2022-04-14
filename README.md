@@ -1,4 +1,4 @@
-# 自分用の記録
+# 最低限入れておきたいツール
 
 ## Karabiner-elements
 
